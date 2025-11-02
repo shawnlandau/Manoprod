@@ -345,6 +345,93 @@ section {
     color: rgba(255, 255, 255, 0.9);
 }
 
+/* ===== PAYMENT SECTION ===== */
+.payment-section {
+    background: var(--white);
+    padding: 2rem 0;
+    border-top: 1px solid var(--gray-medium);
+}
+
+.payment-container-discreet {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--gray-light);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.payment-header-discreet {
+    margin-bottom: 1.5rem;
+}
+
+.payment-header-discreet h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    margin-bottom: 0.25rem;
+}
+
+.payment-header-discreet p {
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.venmo-content-discreet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.venmo-qr-small {
+    flex-shrink: 0;
+}
+
+.qr-code-small {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.venmo-info-compact {
+    text-align: left;
+}
+
+.venmo-username-small {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #008CFF;
+    margin-bottom: 0.75rem;
+}
+
+.btn-venmo-small {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #008CFF;
+    color: var(--white);
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.btn-venmo-small:hover {
+    background: #0077D6;
+    transform: translateY(-2px);
+}
+
+.btn-venmo-small i {
+    font-size: 1rem;
+}
+
 /* ===== INSTAGRAM SECTION ===== */
 .instagram-section {
     background: var(--white);
@@ -835,6 +922,15 @@ section {
         gap: 1.5rem;
     }
 
+    .venmo-content-discreet {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .venmo-info-compact {
+        text-align: center;
+    }
+
     .banner-content h3 {
         font-size: 2rem;
     }
@@ -897,6 +993,20 @@ section {
 
     .store-feature i {
         font-size: 2.5rem;
+    }
+
+    .payment-container-discreet {
+        padding: 1.5rem;
+    }
+
+    .qr-code-small {
+        width: 100px;
+        height: 100px;
+    }
+
+    .btn-venmo-small {
+        font-size: 0.85rem;
+        padding: 0.5rem 1.25rem;
     }
 
     .banner-content h3 {
